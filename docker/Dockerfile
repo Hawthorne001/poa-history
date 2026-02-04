@@ -1,4 +1,4 @@
-FROM golang:latest
+FROM golang:1.26rc2
 RUN mkdir /app
 ADD ../server /app/
 WORKDIR /app
